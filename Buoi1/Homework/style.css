@@ -1,0 +1,46 @@
+.btn{
+   display: flex;
+   justify-content: center;
+}
+.contain{
+    margin: auto;
+    width: 400px ;
+    height: 100px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.circle{
+    width: 75px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#timer{
+    text-align: center;
+    line-height: 75px;
+    order : 3 ;
+}
+
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+
+
+.activeRed{
+    order : 0 
+}
+.activeGreen{
+    order : 1 
+}
+.activeYellow{
+    order : 2 
+}
