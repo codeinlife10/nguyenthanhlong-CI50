@@ -1,0 +1,31 @@
+.contain{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border : 1px solid black ;
+    width: 100% ;
+    height: 300px;
+    position: relative;
+}
+
+.duoi{
+    display:flex;
+    justify-content: space-between;
+}
+
+.yes{
+    border:1px solid black;
+    margin-right: 10px;
+    background-color: green;
+}
+.no{
+    border:1px solid black;
+    background-color: red;
+    margin-right: 10px;
+    position: absolute;
+
+}
+.reverse{
+    flex-direction: row-reverse;
+}
