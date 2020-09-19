@@ -20,7 +20,6 @@
 #timer{
     text-align: center;
     line-height: 75px;
-    order : 3 ;
 }
 
 
@@ -34,13 +33,3 @@
     background-color: green;
 }
 
-
-.activeRed{
-    order : 0 
-}
-.activeGreen{
-    order : 1 
-}
-.activeYellow{
-    order : 2 
-}
