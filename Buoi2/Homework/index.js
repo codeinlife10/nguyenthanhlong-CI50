@@ -82,6 +82,9 @@ class Controller {
     alert("Ban da chon them crush");
     CrushData = prompt("Nhap thong tin crush : name/age/address/appear/favor");
     CrushData = CrushData.split(",");
+    CrushData = CrushData.filter(function(value){
+      return value!=undefined
+    })
     list.add(
       new Crush(
         CrushData[0],
@@ -98,6 +101,9 @@ class Controller {
      alert("Ban da chon them NYC");
       NYCData = prompt("Nhap thong tin NYC : name,age,address,favor");
       NYCData = NYCData.split(",");
+      NYCData = NYCData.filter(function(value){
+        return value!=undefined
+      })
       list.add(
         new OldGirlFriend(
             NYCData[0], 
